@@ -65,30 +65,22 @@ export function Cover({ onOpen }: { onOpen: () => void }) {
       />
 
       <div className="relative z-10 flex flex-col items-center">
-        <p
-          className="cover-rise font-sans text-[0.7rem] uppercase tracking-[0.55em] text-accent sm:text-xs"
+        <h2
+          className="cover-rise font-heading text-lg tracking-[0.55em] text-accent sm:text-xl md:text-2xl"
           style={{ animationDelay: "0.6s" }}
         >
-          The Engagement Of
-        </p>
-
-        <h2
-          className="cover-rise mt-7 font-heading text-6xl font-medium tracking-[0.2em] text-cream sm:text-7xl md:text-8xl"
-          style={{ animationDelay: "0.85s" }}
-        >
-          LAMARAN
+          THE ENGAGEMENT OF
         </h2>
 
-        <div
-          className="cover-rise mt-9 flex items-center gap-4"
-          style={{ animationDelay: "1.05s" }}
+      <div
+         className="cover-rise mt-6 flex items-center gap-4"
+         style={{ animationDelay: "0.85s" }}
           aria-hidden="true"
-        >
-          <span className="line-grow h-px w-12 bg-accent/70 sm:w-16" />
+      >
+         <span className="line-grow h-px w-12 bg-accent/70 sm:w-16" />
           <span className="h-1.5 w-1.5 rotate-45 bg-accent" />
           <span className="line-grow h-px w-12 bg-accent/70 sm:w-16" />
-        </div>
-
+      </div>
         <div className="mt-9 flex flex-col items-center gap-4">
           <h1
             className="cover-rise font-heading text-4xl font-semibold leading-tight sm:text-5xl md:text-6xl"
