@@ -396,7 +396,7 @@ function toggleMusic() {
       </section>
 
       {/* Quote */}
-      <section className="relative overflow-hidden px-6 py-28">
+      <section className="relative overflow-hidden px-6 pt-8 pb-28">
         <Image
           src="/floral-corner.png"
           alt=""
